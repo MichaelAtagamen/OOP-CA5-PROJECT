@@ -30,6 +30,7 @@ public class MenuSystem
                 System.out.print("Enter your choice: ");
                 choice = scanner.nextInt();
 
+
                 switch (choice)
                 {
                     case 1:

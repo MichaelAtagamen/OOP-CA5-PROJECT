@@ -10,5 +10,7 @@ public interface PlayerDAO {
     PlayerDTO getPlayerById(int playerId) throws DaoException;
     void insertPlayer(PlayerDTO player) throws DaoException;
     void updatePlayer(PlayerDTO player) throws DaoException;
+
     void deletePlayer(int playerId) throws DaoException;
+
 }
